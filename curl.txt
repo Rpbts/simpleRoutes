@@ -1,0 +1,6 @@
+curl -u name:passwd http://machine.domain/full/“
+curl UseDefaultCredentials uri:https//127.0.0.1:5500curl
+
+curl ”randy.p.brandt@outlook.com:614Fishy“@https://localhost:5500
+
+curl --data 'xy' http://localhost:300

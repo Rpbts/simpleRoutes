@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rpbts/chapter5/issues"
   },
-  "homepage": "https://github.com/rpbts/chapter5#readme"
+  "homepage": "https://github.com/rpbts/chapter5#readme",
+  "dependencies": {
+    "http-status-codes": "^1.4.0"
+  }
 }

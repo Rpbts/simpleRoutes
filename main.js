@@ -18,7 +18,7 @@ app.on('request', (req, res) => {
         console.log('Request Body Contents: ' + body);
     });
 // ////
-
+cur
     res.writeHead(httpStatus.OK, {
         'contentType': 'text/html'
     });
@@ -26,7 +26,7 @@ app.on('request', (req, res) => {
     console.log(getJSONString(req.method));
     console.log(req.url);
     console.log(req.headers);
-    res.writeEnd('<h2>This will show up on the screen.</h2>');
+    res.end('<h2>This will show up on the screen.</h2>');
 
 });
 
