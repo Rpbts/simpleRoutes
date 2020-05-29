@@ -28,6 +28,10 @@ const app = http.createServer((req, res) => {
     }
 });
 
+app.listen(port);
+console.log('Server has started. Listening on PORT' + port);
+
+
 /* req.on('end', () => {
     body = Buffer.concat(body).toString();
     console.log('Request Body Contents: ' + body);
@@ -42,6 +46,4 @@ console.log(req.url);
 console.log(req.headers);
 res.end('<h2>This will show up on the screen.</h2>'); 54
 */
-app.listen(port);
 //
-console.log('Server has started. Listening on PORT' + port);
